@@ -87,8 +87,8 @@ colnames(submit) <- col_name
 
 ## submission file
 
-write.csv(submit,file='/Users/sachinshinde/SachinSShinde/My_Data/Study/Kaggle/Kaggle/Walmart_TripTypeClassification/Submission/submit.csv', quote=FALSE,row.names=FALSE)
-zip(zipfile = '/Users/sachinshinde/SachinSShinde/My_Data/Study/Kaggle/Kaggle/Walmart_TripTypeClassification/Submission/submit', files = '/Users/sachinshinde/SachinSShinde/My_Data/Study/Kaggle/Kaggle/Walmart_TripTypeClassification/Submission/submit.csv')
+write.csv(submit,file='./Submission/submit.csv', quote=FALSE,row.names=FALSE)
+zip(zipfile = './Submission/submit', files = './Submission/submit.csv')
 
 
 ## model performance (mlogloss)
